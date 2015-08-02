@@ -1,0 +1,1358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08541FFF73DC46174D7AB1C5 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E3A0862D5D7B5B5933469C /* ParameterEncoding.swift */; };
+		0D761BD856BDDC720B840E8F /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35404AD5C859965436026ADE /* Request.swift */; };
+		10635F63760CED9EF5A1BAE0 /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F6A279EA3997BDDA41E958 /* KeyboardLayoutConstraint.swift */; };
+		1797291F64802F154E5AB0D5 /* SpringImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1DF521B0E672C3DAEC3204 /* SpringImageView.swift */; };
+		197A696CEF1B7AF615DC6A83 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AAC261AED38656A03EE7C12 /* LoadingView.xib */; };
+		1F36C7D79BA985AE63A2E093 /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03280A2E2F3B02CB40711F21 /* DesignableTextField.swift */; };
+		2527B19CE3F90ABBFE93EEA0 /* DesignableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE266EEA7C7E729B3ECFE0EE /* DesignableTabBarController.swift */; };
+		253254655A327BD39D18204C /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74197B9A2BEC10895D43DC35 /* Alamofire.swift */; };
+		2A0B309E38BDA5F8392E287F /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D2A203CB62206351CA12E749 /* SVProgressHUD.bundle */; };
+		2B8D496AECABAA2736EE40FE /* UIViewController+KNSemiModal.h in Headers */ = {isa = PBXBuildFile; fileRef = 153018EB18B5ABD0763ED486 /* UIViewController+KNSemiModal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D79B00DFC10AB36B2B58EF9 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C613CC04FC71A945C4C363 /* TransitionManager.swift */; };
+		2F37C79947A48CB98579840E /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98797430AB21E4C829064682 /* DesignableButton.swift */; };
+		305E95967E0AB4C27561C44D /* Pods-GetMeABus-KNSemiModalViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7281AB80D435736D2F91737 /* Pods-GetMeABus-KNSemiModalViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32486528055B3F0BD9BF3A66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2DB061FA222B64C7DE01D08 /* Foundation.framework */; };
+		3EE86A63282EABAC185AE732 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F037D615181CAA6DCCDFBB6D /* SoundPlayer.swift */; };
+		3F4AB95116A43FF090E1DC46 /* NSObject+YMOptionsAndDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CE0F74C5E466C7165AA4C5 /* NSObject+YMOptionsAndDefaults.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3F7C56F1FF128A73C58BCB29 /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7537108924634D74BCFA431A /* AutoTextView.swift */; };
+		44582E7C80A09908ACD7703D /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267938D10B941CBD4F32246D /* UnwindSegue.swift */; };
+		49DBF042A752C1A5E4F19B4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF1D8748B52B744EC9C5767 /* Images.xcassets */; };
+		4E79527C2CA67B8E94358A54 /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3735E1FB3D1E665DEB82B39B /* DesignableImageView.swift */; };
+		4F977399E06D2F998F265E8C /* Pods-GetMeABus-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B31B381FE29CA8ADBD4CF6E /* Pods-GetMeABus-dummy.m */; };
+		51501F043B76379683A92BFE /* SpringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283C80C2C6F4FCFCA287B679 /* SpringLabel.swift */; };
+		51F434C290FFE4B76D1947D2 /* Pods-GetMeABus-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6729B1467E85CAB877CDBE5A /* Pods-GetMeABus-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5408D06751597D7884A57276 /* SpringButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733C81D8528507C25EDE9375 /* SpringButton.swift */; };
+		5682271FADB2A015A661EE22 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1D819F0C05E82EFE3722AB /* SVProgressHUD.m */; };
+		5AD1A1A8A9545280C8A5CF4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2DB061FA222B64C7DE01D08 /* Foundation.framework */; };
+		5B5AF00EA9201498FDF72722 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = B097E3D58C6E1C30FAB5A961 /* Upload.swift */; };
+		5DFB04CC1882C9EE3C0E8411 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04E1085788719B1A9CDD798 /* QuartzCore.framework */; };
+		5E6A1C2B3EDF553CA05D4D09 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FCC97BAA68F275400148D8 /* Download.swift */; };
+		60BE4FF66BBF6B486B668C2D /* SpringTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AFD840E7BCA16F32A68C9F /* SpringTextField.swift */; };
+		60FA1676F3A196B258397E03 /* Pods-GetMeABus-SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E646DF1F0278EA09BDD9BFB8 /* Pods-GetMeABus-SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74871BE01A38FE2017AA4BEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2DB061FA222B64C7DE01D08 /* Foundation.framework */; };
+		77C78EB518250D4A9A30BDA5 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4475E01E84357D1A8B34E91F /* Validation.swift */; };
+		7F7F26B36224562938D78942 /* NSObject+YMOptionsAndDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B25B2FE3F8BA77B25204FF0 /* NSObject+YMOptionsAndDefaults.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D1EA9AA93493D172E2A2FAE /* Pods-GetMeABus-Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84577E42FDF1ED288E5BE12C /* Pods-GetMeABus-Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9141A55D83AC66C9E087008A /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E2EFFF0B9A6384449B15C8 /* SVIndefiniteAnimatedView.m */; };
+		91E85A5167604DBCEEAE6185 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 094A1A00418716FFC096DB34 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		965D2A7BA9D51D484AF2519A /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E6F47219FD7B0D8950D5B20 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96A32B33665A393432D7265F /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED73D6CEA335EA728AC001 /* Misc.swift */; };
+		9A894B885DF8F81EE1528BEA /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C619D82C4BAB76D625FAA4 /* BlurView.swift */; };
+		9D4DBC2F70893249C20835FB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04E1085788719B1A9CDD798 /* QuartzCore.framework */; };
+		A2966F125EFA13CA0D92297F /* Pods-GetMeABus-Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 080CCF4E0C76E7B3AF4D5C1F /* Pods-GetMeABus-Alamofire-dummy.m */; };
+		A6E03055FF9432EE0E048694 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A6FA37B51337D97017607C /* SwiftyJSON.swift */; };
+		A719F0A79D145753787816C5 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7D467830DB334F2CBC1F5D /* ServerTrustPolicy.swift */; };
+		A8B66E83498BFA3C3714CC52 /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1390A45ABFD2965D57AA2B16 /* AsyncButton.swift */; };
+		AC1B089CC7606190DEFD149F /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4DC73D3C8C9944AF04208B /* SpringView.swift */; };
+		B1A203EC224F069DD541A69E /* Pods-GetMeABus-KNSemiModalViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A34E84FCC8472541EEA1464 /* Pods-GetMeABus-KNSemiModalViewController-dummy.m */; };
+		B2490BEC3FD330D1A1A5E33E /* Pods-GetMeABus-SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE8924A0E86711298BF5168 /* Pods-GetMeABus-SVProgressHUD-dummy.m */; };
+		B29049778404A40F2F49DFDE /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97F6E4E483AEB2DA0456059 /* ResponseSerialization.swift */; };
+		B308A8B1C6947CD4C4465822 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA0C39EA8182BDC46260D2D /* DesignableView.swift */; };
+		B38247054E833D24C82FD9B4 /* Pods-GetMeABus-Spring-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56CFEEDFC744BD1EE26111F3 /* Pods-GetMeABus-Spring-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84A7BF3B59B3A53AC432FC0 /* Pods-GetMeABus-Spring-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BF572B557C7F5E31ABE1C6 /* Pods-GetMeABus-Spring-dummy.m */; };
+		BB4CE0A3924885CD38EDE24E /* UIViewController+KNSemiModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 604C9EDCAA5F7EED7C723A73 /* UIViewController+KNSemiModal.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BE1282035B125E9773A81318 /* DesignableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCFDA81CE7106FE15CB9BFB /* DesignableLabel.swift */; };
+		CC8E432DDBAEB5138D7B9170 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37D116856D98977E0FA05C6 /* SpringAnimation.swift */; };
+		CF81EC790E8E3AB82F3F9F3C /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65F189FACF766CD1B11C1D2 /* LoadingView.swift */; };
+		D35EC57E714F266215E8C712 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2DB061FA222B64C7DE01D08 /* Foundation.framework */; };
+		D41631A794510CF1629108F7 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317A0A8A04F1D7C5E5FE9910 /* AsyncImageView.swift */; };
+		D982D5309FAD6CABE27FD577 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE176FCA7BDEBB71F051A2E /* Manager.swift */; };
+		DD14093B140F4F6AC3A0297D /* Pods-GetMeABus-SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8BD2CCD1F8B791BCC784185 /* Pods-GetMeABus-SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE14517C0CE4B3E2CFB9C25F /* SpringTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BA5BB2BAE8C6B6750A8DCA /* SpringTextView.swift */; };
+		DE7FF07633CE59468EC291AF /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2581CEDADDF7EF9A7D7EDF /* Spring.swift */; };
+		E46D18B7BE8644ABB567B2CF /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9181F21F6A873A982F4AD715 /* TransitionZoom.swift */; };
+		EB640E6EE19AD9F859F97049 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2DB061FA222B64C7DE01D08 /* Foundation.framework */; };
+		EF29F561FE50EA8A6DC578A0 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E151F88539E63C675FF4D5 /* ImageLoader.swift */; };
+		F0B7E8C763FC963754D52A37 /* DesignableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D22F5C6F7E4F72E46304534 /* DesignableTextView.swift */; };
+		F28296A84A2F12DD8F324C5E /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EC2A9460CFFA6FAA658D80 /* MultipartFormData.swift */; };
+		F94A65A125F8EFD1C07350FF /* Pods-GetMeABus-SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3888F7FAEE9404870C6DA70C /* Pods-GetMeABus-SwiftyJSON-dummy.m */; };
+		FD51A4CB4D138B2149637503 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2DB061FA222B64C7DE01D08 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F45C3CE4F637F77FDE8308F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C80D6679A25D2162F9C08D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEED12663436C915A6BE1897;
+			remoteInfo = "Pods-GetMeABus-SVProgressHUD";
+		};
+		3FF08D12CB0B4E10B15C7D0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C80D6679A25D2162F9C08D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE2F7EF852D254026EC6B8D6;
+			remoteInfo = "Pods-GetMeABus-Alamofire";
+		};
+		4676724DEA380D5CC1BCA73D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C80D6679A25D2162F9C08D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F17796C22125BC978BFCA117;
+			remoteInfo = "Pods-GetMeABus-Spring";
+		};
+		508BEED4075E38E14D2A9D5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C80D6679A25D2162F9C08D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CC1913F7B8E48907E5CEF68;
+			remoteInfo = "Pods-GetMeABus-KNSemiModalViewController";
+		};
+		5BB391BA942D92F5449CC6B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C80D6679A25D2162F9C08D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF57B0FAB1812A0C3AC3E0F7;
+			remoteInfo = "Pods-GetMeABus-SwiftyJSON";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03280A2E2F3B02CB40711F21 /* DesignableTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTextField.swift; path = Spring/DesignableTextField.swift; sourceTree = "<group>"; };
+		04FF5D888242EBCC09114B46 /* Pods-GetMeABus-SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GetMeABus-SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		080CCF4E0C76E7B3AF4D5C1F /* Pods-GetMeABus-Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GetMeABus-Alamofire-dummy.m"; sourceTree = "<group>"; };
+		082A6F53205D76A2404C8CC9 /* Pods-GetMeABus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GetMeABus.release.xcconfig"; sourceTree = "<group>"; };
+		0918273F01FB2496F3D25718 /* Pods_GetMeABus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetMeABus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		094A1A00418716FFC096DB34 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		0FAAE0C3779B96354B3D2027 /* Pods-GetMeABus-SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GetMeABus-SVProgressHUD.xcconfig"; sourceTree = "<group>"; };
+		12B928D52FE992C912252F1C /* KNSemiModalViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KNSemiModalViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1390A45ABFD2965D57AA2B16 /* AsyncButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncButton.swift; path = Spring/AsyncButton.swift; sourceTree = "<group>"; };
+		153018EB18B5ABD0763ED486 /* UIViewController+KNSemiModal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+KNSemiModal.h"; path = "Source/UIViewController+KNSemiModal.h"; sourceTree = "<group>"; };
+		1B31B381FE29CA8ADBD4CF6E /* Pods-GetMeABus-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GetMeABus-dummy.m"; sourceTree = "<group>"; };
+		20C619D82C4BAB76D625FAA4 /* BlurView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlurView.swift; path = Spring/BlurView.swift; sourceTree = "<group>"; };
+		267938D10B941CBD4F32246D /* UnwindSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnwindSegue.swift; path = Spring/UnwindSegue.swift; sourceTree = "<group>"; };
+		273AA9D5413A2A7AC0F28F07 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		283C80C2C6F4FCFCA287B679 /* SpringLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringLabel.swift; path = Spring/SpringLabel.swift; sourceTree = "<group>"; };
+		2A34E84FCC8472541EEA1464 /* Pods-GetMeABus-KNSemiModalViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GetMeABus-KNSemiModalViewController-dummy.m"; sourceTree = "<group>"; };
+		2DCFDA81CE7106FE15CB9BFB /* DesignableLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableLabel.swift; path = Spring/DesignableLabel.swift; sourceTree = "<group>"; };
+		3028B7A891CB33283D060095 /* Pods-GetMeABus-KNSemiModalViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GetMeABus-KNSemiModalViewController-prefix.pch"; sourceTree = "<group>"; };
+		317A0A8A04F1D7C5E5FE9910 /* AsyncImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncImageView.swift; path = Spring/AsyncImageView.swift; sourceTree = "<group>"; };
+		31AF2C09A1300016D980064D /* Spring.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Spring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3207D9C009DAA53B76DC4EDB /* Pods-GetMeABus-Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GetMeABus-Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
+		35404AD5C859965436026ADE /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		3735E1FB3D1E665DEB82B39B /* DesignableImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableImageView.swift; path = Spring/DesignableImageView.swift; sourceTree = "<group>"; };
+		3888F7FAEE9404870C6DA70C /* Pods-GetMeABus-SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GetMeABus-SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		3B25B2FE3F8BA77B25204FF0 /* NSObject+YMOptionsAndDefaults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+YMOptionsAndDefaults.h"; path = "Source/NSObject+YMOptionsAndDefaults.h"; sourceTree = "<group>"; };
+		3D4DC73D3C8C9944AF04208B /* SpringView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringView.swift; path = Spring/SpringView.swift; sourceTree = "<group>"; };
+		41CE0F74C5E466C7165AA4C5 /* NSObject+YMOptionsAndDefaults.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YMOptionsAndDefaults.m"; path = "Source/NSObject+YMOptionsAndDefaults.m"; sourceTree = "<group>"; };
+		42ED73D6CEA335EA728AC001 /* Misc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Misc.swift; path = Spring/Misc.swift; sourceTree = "<group>"; };
+		4475E01E84357D1A8B34E91F /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		46C9B3EC512A7EBD2245FE10 /* Pods-GetMeABus-Spring.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GetMeABus-Spring.xcconfig"; sourceTree = "<group>"; };
+		46E3A0862D5D7B5B5933469C /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		4AAC261AED38656A03EE7C12 /* LoadingView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LoadingView.xib; path = Spring/LoadingView.xib; sourceTree = "<group>"; };
+		4BDD21EE4BD79573D9D2B2AF /* Pods-GetMeABus-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GetMeABus-resources.sh"; sourceTree = "<group>"; };
+		4E6F47219FD7B0D8950D5B20 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		4F9EFF1916B144390FC518C1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50BA5BB2BAE8C6B6750A8DCA /* SpringTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringTextView.swift; path = Spring/SpringTextView.swift; sourceTree = "<group>"; };
+		51D2B5CF2EB05F07B0F2C56E /* Pods-GetMeABus-SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GetMeABus-SVProgressHUD.modulemap"; sourceTree = "<group>"; };
+		56CFEEDFC744BD1EE26111F3 /* Pods-GetMeABus-Spring-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GetMeABus-Spring-umbrella.h"; sourceTree = "<group>"; };
+		58A93D0BA7AB36A065CA232F /* Pods-GetMeABus-Spring-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GetMeABus-Spring-prefix.pch"; sourceTree = "<group>"; };
+		5B1D819F0C05E82EFE3722AB /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		5CA0C39EA8182BDC46260D2D /* DesignableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableView.swift; path = Spring/DesignableView.swift; sourceTree = "<group>"; };
+		604C9EDCAA5F7EED7C723A73 /* UIViewController+KNSemiModal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+KNSemiModal.m"; path = "Source/UIViewController+KNSemiModal.m"; sourceTree = "<group>"; };
+		6729B1467E85CAB877CDBE5A /* Pods-GetMeABus-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GetMeABus-umbrella.h"; sourceTree = "<group>"; };
+		69AFD840E7BCA16F32A68C9F /* SpringTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringTextField.swift; path = Spring/SpringTextField.swift; sourceTree = "<group>"; };
+		69E2EFFF0B9A6384449B15C8 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		6C7D467830DB334F2CBC1F5D /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		6D22F5C6F7E4F72E46304534 /* DesignableTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTextView.swift; path = Spring/DesignableTextView.swift; sourceTree = "<group>"; };
+		6FCB04F2761D7F6C9F36FFED /* Pods-GetMeABus-SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GetMeABus-SwiftyJSON.modulemap"; sourceTree = "<group>"; };
+		707EA3D0ADC1A9C9A4A08F35 /* Pods-GetMeABus-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GetMeABus-frameworks.sh"; sourceTree = "<group>"; };
+		733C81D8528507C25EDE9375 /* SpringButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringButton.swift; path = Spring/SpringButton.swift; sourceTree = "<group>"; };
+		74197B9A2BEC10895D43DC35 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		7537108924634D74BCFA431A /* AutoTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoTextView.swift; path = Spring/AutoTextView.swift; sourceTree = "<group>"; };
+		84577E42FDF1ED288E5BE12C /* Pods-GetMeABus-Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GetMeABus-Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		86C613CC04FC71A945C4C363 /* TransitionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionManager.swift; path = Spring/TransitionManager.swift; sourceTree = "<group>"; };
+		9181F21F6A873A982F4AD715 /* TransitionZoom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionZoom.swift; path = Spring/TransitionZoom.swift; sourceTree = "<group>"; };
+		98797430AB21E4C829064682 /* DesignableButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableButton.swift; path = Spring/DesignableButton.swift; sourceTree = "<group>"; };
+		9A3BE35F59E94AFBC1C6B836 /* Pods-GetMeABus-SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GetMeABus-SwiftyJSON.xcconfig"; sourceTree = "<group>"; };
+		9AB23F8A7D74812C479C536A /* Pods-GetMeABus-KNSemiModalViewController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GetMeABus-KNSemiModalViewController-Private.xcconfig"; sourceTree = "<group>"; };
+		A04E1085788719B1A9CDD798 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		A8BD2CCD1F8B791BCC784185 /* Pods-GetMeABus-SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GetMeABus-SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		ACD62EEC28A36DF74DFFD27A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B097E3D58C6E1C30FAB5A961 /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
+		B2B3298C5CC079FA79F4CAEA /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B37D116856D98977E0FA05C6 /* SpringAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringAnimation.swift; path = Spring/SpringAnimation.swift; sourceTree = "<group>"; };
+		B52B8AF02A61289AD5B4F2CA /* Pods-GetMeABus-KNSemiModalViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GetMeABus-KNSemiModalViewController.modulemap"; sourceTree = "<group>"; };
+		B6AE1D81F36FD9F2744A378C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B85E7A3FB3D0CD092D93193B /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B99D88027C23158CB81BC08B /* Pods-GetMeABus-Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GetMeABus-Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		BD0C617CA46C605B6181D512 /* Pods-GetMeABus-Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GetMeABus-Alamofire.xcconfig"; sourceTree = "<group>"; };
+		BD91B3C326AD35CD16459F33 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDF1D8748B52B744EC9C5767 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SpringApp/Images.xcassets; sourceTree = "<group>"; };
+		C6DE238667CD2456C03921AE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8F6A279EA3997BDDA41E958 /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardLayoutConstraint.swift; path = Spring/KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
+		CBE8924A0E86711298BF5168 /* Pods-GetMeABus-SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GetMeABus-SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		CD13BD5EF181F438FC7AAD73 /* Pods-GetMeABus-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GetMeABus-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CD515AE0AAD759E3A3D1E95F /* Pods-GetMeABus-SwiftyJSON-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GetMeABus-SwiftyJSON-Private.xcconfig"; sourceTree = "<group>"; };
+		CDE176FCA7BDEBB71F051A2E /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
+		CE96FFC22AC4EF721EC3BD5A /* Pods-GetMeABus-Spring.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GetMeABus-Spring.modulemap"; sourceTree = "<group>"; };
+		D2A203CB62206351CA12E749 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		D3A6FA37B51337D97017607C /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		D65F189FACF766CD1B11C1D2 /* LoadingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadingView.swift; path = Spring/LoadingView.swift; sourceTree = "<group>"; };
+		D7EC2A9460CFFA6FAA658D80 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		DA8D12DB06D42A29D152DF59 /* Pods-GetMeABus-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GetMeABus-acknowledgements.plist"; sourceTree = "<group>"; };
+		DEE41ED09A781EE29C4DC203 /* Pods-GetMeABus-SVProgressHUD-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GetMeABus-SVProgressHUD-Private.xcconfig"; sourceTree = "<group>"; };
+		E0BF572B557C7F5E31ABE1C6 /* Pods-GetMeABus-Spring-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GetMeABus-Spring-dummy.m"; sourceTree = "<group>"; };
+		E2DB061FA222B64C7DE01D08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E646DF1F0278EA09BDD9BFB8 /* Pods-GetMeABus-SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GetMeABus-SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		E7281AB80D435736D2F91737 /* Pods-GetMeABus-KNSemiModalViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GetMeABus-KNSemiModalViewController-umbrella.h"; sourceTree = "<group>"; };
+		E8E151F88539E63C675FF4D5 /* ImageLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageLoader.swift; path = Spring/ImageLoader.swift; sourceTree = "<group>"; };
+		E9A244DC394DE26FEEE6F5E5 /* Pods-GetMeABus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GetMeABus.debug.xcconfig"; sourceTree = "<group>"; };
+		EA2581CEDADDF7EF9A7D7EDF /* Spring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Spring.swift; path = Spring/Spring.swift; sourceTree = "<group>"; };
+		EA5EED8C75E2D5DC387BA351 /* Pods-GetMeABus-SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GetMeABus-SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		EB1DF521B0E672C3DAEC3204 /* SpringImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringImageView.swift; path = Spring/SpringImageView.swift; sourceTree = "<group>"; };
+		EE266EEA7C7E729B3ECFE0EE /* DesignableTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTabBarController.swift; path = Spring/DesignableTabBarController.swift; sourceTree = "<group>"; };
+		F00BA7AD899B7D73262560B2 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F037D615181CAA6DCCDFBB6D /* SoundPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SoundPlayer.swift; path = Spring/SoundPlayer.swift; sourceTree = "<group>"; };
+		F7BC807F237ECAC913685ACE /* Pods-GetMeABus-Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GetMeABus-Alamofire.modulemap"; sourceTree = "<group>"; };
+		F7FCC97BAA68F275400148D8 /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
+		F818B53AC2D2B8E7D9B7D2A3 /* Pods-GetMeABus-KNSemiModalViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GetMeABus-KNSemiModalViewController.xcconfig"; sourceTree = "<group>"; };
+		F8ED45F1EB5D5D6FD7287DE5 /* Pods-GetMeABus-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GetMeABus-environment.h"; sourceTree = "<group>"; };
+		F97F6E4E483AEB2DA0456059 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		FA75CFF252DFA5FADC161DB7 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD0779B4751EBA9B81EF888 /* Pods-GetMeABus-Spring-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GetMeABus-Spring-Private.xcconfig"; sourceTree = "<group>"; };
+		FFE7BECEB95DD993F8C5B76C /* Pods-GetMeABus.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GetMeABus.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04FA34A068DD3D59167FAD3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD1A1A8A9545280C8A5CF4E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31AD4E31B57F19361D534DCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB640E6EE19AD9F859F97049 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D227B85EB559ED5B9EDD9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD51A4CB4D138B2149637503 /* Foundation.framework in Frameworks */,
+				9D4DBC2F70893249C20835FB /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74C2479732BDF9F7E5DB7374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74871BE01A38FE2017AA4BEE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3516B5B1A1D92D870780A10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32486528055B3F0BD9BF3A66 /* Foundation.framework in Frameworks */,
+				5DFB04CC1882C9EE3C0E8411 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF91F964B888975A64917D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35EC57E714F266215E8C712 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D1268A2735F21EF036ACC43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98783225763B77469972964A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20989C4E29FC4ACE4B15713F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6AE1D81F36FD9F2744A378C /* Info.plist */,
+				6FCB04F2761D7F6C9F36FFED /* Pods-GetMeABus-SwiftyJSON.modulemap */,
+				9A3BE35F59E94AFBC1C6B836 /* Pods-GetMeABus-SwiftyJSON.xcconfig */,
+				CD515AE0AAD759E3A3D1E95F /* Pods-GetMeABus-SwiftyJSON-Private.xcconfig */,
+				3888F7FAEE9404870C6DA70C /* Pods-GetMeABus-SwiftyJSON-dummy.m */,
+				04FF5D888242EBCC09114B46 /* Pods-GetMeABus-SwiftyJSON-prefix.pch */,
+				A8BD2CCD1F8B791BCC784185 /* Pods-GetMeABus-SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-GetMeABus-SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		32E812F96542289F51817BA2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6DE238667CD2456C03921AE /* Info.plist */,
+				CE96FFC22AC4EF721EC3BD5A /* Pods-GetMeABus-Spring.modulemap */,
+				46C9B3EC512A7EBD2245FE10 /* Pods-GetMeABus-Spring.xcconfig */,
+				FDD0779B4751EBA9B81EF888 /* Pods-GetMeABus-Spring-Private.xcconfig */,
+				E0BF572B557C7F5E31ABE1C6 /* Pods-GetMeABus-Spring-dummy.m */,
+				58A93D0BA7AB36A065CA232F /* Pods-GetMeABus-Spring-prefix.pch */,
+				56CFEEDFC744BD1EE26111F3 /* Pods-GetMeABus-Spring-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-GetMeABus-Spring";
+			sourceTree = "<group>";
+		};
+		3C41C265AAC2D72F5544F1B3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				86D3F9421DCCB8536EB51FE0 /* Pods-GetMeABus */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3DE054E0D25CDEF1A9451760 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B85E7A3FB3D0CD092D93193B /* Alamofire.framework */,
+				12B928D52FE992C912252F1C /* KNSemiModalViewController.framework */,
+				0918273F01FB2496F3D25718 /* Pods_GetMeABus.framework */,
+				F00BA7AD899B7D73262560B2 /* SVProgressHUD.framework */,
+				31AF2C09A1300016D980064D /* Spring.framework */,
+				FA75CFF252DFA5FADC161DB7 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F5475CD7D2C999C60CFC2BD /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				1390A45ABFD2965D57AA2B16 /* AsyncButton.swift */,
+				317A0A8A04F1D7C5E5FE9910 /* AsyncImageView.swift */,
+				7537108924634D74BCFA431A /* AutoTextView.swift */,
+				20C619D82C4BAB76D625FAA4 /* BlurView.swift */,
+				98797430AB21E4C829064682 /* DesignableButton.swift */,
+				3735E1FB3D1E665DEB82B39B /* DesignableImageView.swift */,
+				2DCFDA81CE7106FE15CB9BFB /* DesignableLabel.swift */,
+				EE266EEA7C7E729B3ECFE0EE /* DesignableTabBarController.swift */,
+				03280A2E2F3B02CB40711F21 /* DesignableTextField.swift */,
+				6D22F5C6F7E4F72E46304534 /* DesignableTextView.swift */,
+				5CA0C39EA8182BDC46260D2D /* DesignableView.swift */,
+				E8E151F88539E63C675FF4D5 /* ImageLoader.swift */,
+				C8F6A279EA3997BDDA41E958 /* KeyboardLayoutConstraint.swift */,
+				D65F189FACF766CD1B11C1D2 /* LoadingView.swift */,
+				42ED73D6CEA335EA728AC001 /* Misc.swift */,
+				F037D615181CAA6DCCDFBB6D /* SoundPlayer.swift */,
+				EA2581CEDADDF7EF9A7D7EDF /* Spring.swift */,
+				B37D116856D98977E0FA05C6 /* SpringAnimation.swift */,
+				733C81D8528507C25EDE9375 /* SpringButton.swift */,
+				EB1DF521B0E672C3DAEC3204 /* SpringImageView.swift */,
+				283C80C2C6F4FCFCA287B679 /* SpringLabel.swift */,
+				69AFD840E7BCA16F32A68C9F /* SpringTextField.swift */,
+				50BA5BB2BAE8C6B6750A8DCA /* SpringTextView.swift */,
+				3D4DC73D3C8C9944AF04208B /* SpringView.swift */,
+				86C613CC04FC71A945C4C363 /* TransitionManager.swift */,
+				9181F21F6A873A982F4AD715 /* TransitionZoom.swift */,
+				267938D10B941CBD4F32246D /* UnwindSegue.swift */,
+				8C06CE1D9A51D8E9EA139490 /* Resources */,
+				32E812F96542289F51817BA2 /* Support Files */,
+			);
+			path = Spring;
+			sourceTree = "<group>";
+		};
+		6078AD33F6D330C317F7EF3A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F9EFF1916B144390FC518C1 /* Info.plist */,
+				51D2B5CF2EB05F07B0F2C56E /* Pods-GetMeABus-SVProgressHUD.modulemap */,
+				0FAAE0C3779B96354B3D2027 /* Pods-GetMeABus-SVProgressHUD.xcconfig */,
+				DEE41ED09A781EE29C4DC203 /* Pods-GetMeABus-SVProgressHUD-Private.xcconfig */,
+				CBE8924A0E86711298BF5168 /* Pods-GetMeABus-SVProgressHUD-dummy.m */,
+				EA5EED8C75E2D5DC387BA351 /* Pods-GetMeABus-SVProgressHUD-prefix.pch */,
+				E646DF1F0278EA09BDD9BFB8 /* Pods-GetMeABus-SVProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-GetMeABus-SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		688877455492E8C6DD6B6FCE /* KNSemiModalViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3B25B2FE3F8BA77B25204FF0 /* NSObject+YMOptionsAndDefaults.h */,
+				41CE0F74C5E466C7165AA4C5 /* NSObject+YMOptionsAndDefaults.m */,
+				153018EB18B5ABD0763ED486 /* UIViewController+KNSemiModal.h */,
+				604C9EDCAA5F7EED7C723A73 /* UIViewController+KNSemiModal.m */,
+				8B29139EC8058FD466FA92A0 /* Support Files */,
+			);
+			path = KNSemiModalViewController;
+			sourceTree = "<group>";
+		};
+		74666FFA1E4F6FD538D7DA43 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D2A203CB62206351CA12E749 /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		76F5B9FD7BC5ADA528FFA6E2 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				D3A6FA37B51337D97017607C /* SwiftyJSON.swift */,
+				20989C4E29FC4ACE4B15713F /* Support Files */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		80A3A0F16DBD15C69EF01471 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				273AA9D5413A2A7AC0F28F07 /* Info.plist */,
+				F7BC807F237ECAC913685ACE /* Pods-GetMeABus-Alamofire.modulemap */,
+				BD0C617CA46C605B6181D512 /* Pods-GetMeABus-Alamofire.xcconfig */,
+				3207D9C009DAA53B76DC4EDB /* Pods-GetMeABus-Alamofire-Private.xcconfig */,
+				080CCF4E0C76E7B3AF4D5C1F /* Pods-GetMeABus-Alamofire-dummy.m */,
+				B99D88027C23158CB81BC08B /* Pods-GetMeABus-Alamofire-prefix.pch */,
+				84577E42FDF1ED288E5BE12C /* Pods-GetMeABus-Alamofire-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-GetMeABus-Alamofire";
+			sourceTree = "<group>";
+		};
+		86645702627F6A8DEEF4BF7E /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				74197B9A2BEC10895D43DC35 /* Alamofire.swift */,
+				F7FCC97BAA68F275400148D8 /* Download.swift */,
+				CDE176FCA7BDEBB71F051A2E /* Manager.swift */,
+				D7EC2A9460CFFA6FAA658D80 /* MultipartFormData.swift */,
+				46E3A0862D5D7B5B5933469C /* ParameterEncoding.swift */,
+				35404AD5C859965436026ADE /* Request.swift */,
+				F97F6E4E483AEB2DA0456059 /* ResponseSerialization.swift */,
+				6C7D467830DB334F2CBC1F5D /* ServerTrustPolicy.swift */,
+				B097E3D58C6E1C30FAB5A961 /* Upload.swift */,
+				4475E01E84357D1A8B34E91F /* Validation.swift */,
+				80A3A0F16DBD15C69EF01471 /* Support Files */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		86D3F9421DCCB8536EB51FE0 /* Pods-GetMeABus */ = {
+			isa = PBXGroup;
+			children = (
+				BD91B3C326AD35CD16459F33 /* Info.plist */,
+				FFE7BECEB95DD993F8C5B76C /* Pods-GetMeABus.modulemap */,
+				CD13BD5EF181F438FC7AAD73 /* Pods-GetMeABus-acknowledgements.markdown */,
+				DA8D12DB06D42A29D152DF59 /* Pods-GetMeABus-acknowledgements.plist */,
+				1B31B381FE29CA8ADBD4CF6E /* Pods-GetMeABus-dummy.m */,
+				F8ED45F1EB5D5D6FD7287DE5 /* Pods-GetMeABus-environment.h */,
+				707EA3D0ADC1A9C9A4A08F35 /* Pods-GetMeABus-frameworks.sh */,
+				4BDD21EE4BD79573D9D2B2AF /* Pods-GetMeABus-resources.sh */,
+				6729B1467E85CAB877CDBE5A /* Pods-GetMeABus-umbrella.h */,
+				E9A244DC394DE26FEEE6F5E5 /* Pods-GetMeABus.debug.xcconfig */,
+				082A6F53205D76A2404C8CC9 /* Pods-GetMeABus.release.xcconfig */,
+			);
+			name = "Pods-GetMeABus";
+			path = "Target Support Files/Pods-GetMeABus";
+			sourceTree = "<group>";
+		};
+		8B29139EC8058FD466FA92A0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACD62EEC28A36DF74DFFD27A /* Info.plist */,
+				B52B8AF02A61289AD5B4F2CA /* Pods-GetMeABus-KNSemiModalViewController.modulemap */,
+				F818B53AC2D2B8E7D9B7D2A3 /* Pods-GetMeABus-KNSemiModalViewController.xcconfig */,
+				9AB23F8A7D74812C479C536A /* Pods-GetMeABus-KNSemiModalViewController-Private.xcconfig */,
+				2A34E84FCC8472541EEA1464 /* Pods-GetMeABus-KNSemiModalViewController-dummy.m */,
+				3028B7A891CB33283D060095 /* Pods-GetMeABus-KNSemiModalViewController-prefix.pch */,
+				E7281AB80D435736D2F91737 /* Pods-GetMeABus-KNSemiModalViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-GetMeABus-KNSemiModalViewController";
+			sourceTree = "<group>";
+		};
+		8C06CE1D9A51D8E9EA139490 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BDF1D8748B52B744EC9C5767 /* Images.xcassets */,
+				4AAC261AED38656A03EE7C12 /* LoadingView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		98783225763B77469972964A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E2DB061FA222B64C7DE01D08 /* Foundation.framework */,
+				A04E1085788719B1A9CDD798 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9C9C600875D753A3FAE6697C = {
+			isa = PBXGroup;
+			children = (
+				B2B3298C5CC079FA79F4CAEA /* Podfile */,
+				1D1268A2735F21EF036ACC43 /* Frameworks */,
+				E79A746D92EF72DB9EA630DA /* Pods */,
+				3DE054E0D25CDEF1A9451760 /* Products */,
+				3C41C265AAC2D72F5544F1B3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A6866598099C32F861EEF9D1 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				4E6F47219FD7B0D8950D5B20 /* SVIndefiniteAnimatedView.h */,
+				69E2EFFF0B9A6384449B15C8 /* SVIndefiniteAnimatedView.m */,
+				094A1A00418716FFC096DB34 /* SVProgressHUD.h */,
+				5B1D819F0C05E82EFE3722AB /* SVProgressHUD.m */,
+				74666FFA1E4F6FD538D7DA43 /* Resources */,
+				6078AD33F6D330C317F7EF3A /* Support Files */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		E79A746D92EF72DB9EA630DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86645702627F6A8DEEF4BF7E /* Alamofire */,
+				688877455492E8C6DD6B6FCE /* KNSemiModalViewController */,
+				A6866598099C32F861EEF9D1 /* SVProgressHUD */,
+				5F5475CD7D2C999C60CFC2BD /* Spring */,
+				76F5B9FD7BC5ADA528FFA6E2 /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0DA2D0021FB0739C28208852 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD14093B140F4F6AC3A0297D /* Pods-GetMeABus-SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D8127879796406F423C98B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D1EA9AA93493D172E2A2FAE /* Pods-GetMeABus-Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23CE0712BF4C785C5F4674EF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51F434C290FFE4B76D1947D2 /* Pods-GetMeABus-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D05FE9F0C410F0ABF522750 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B38247054E833D24C82FD9B4 /* Pods-GetMeABus-Spring-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE590AC13E2624A856343067 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F7F26B36224562938D78942 /* NSObject+YMOptionsAndDefaults.h in Headers */,
+				305E95967E0AB4C27561C44D /* Pods-GetMeABus-KNSemiModalViewController-umbrella.h in Headers */,
+				2B8D496AECABAA2736EE40FE /* UIViewController+KNSemiModal.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F9EFBF0377C85CAD49BC5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60FA1676F3A196B258397E03 /* Pods-GetMeABus-SVProgressHUD-umbrella.h in Headers */,
+				965D2A7BA9D51D484AF2519A /* SVIndefiniteAnimatedView.h in Headers */,
+				91E85A5167604DBCEEAE6185 /* SVProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		565AC0552061E277C8326209 /* Pods-GetMeABus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B9C26AB35D09C97A841B458 /* Build configuration list for PBXNativeTarget "Pods-GetMeABus" */;
+			buildPhases = (
+				6C57E3EC83494F6D814D2978 /* Sources */,
+				04FA34A068DD3D59167FAD3A /* Frameworks */,
+				23CE0712BF4C785C5F4674EF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				517510A5FED015F790956501 /* PBXTargetDependency */,
+				88E7F03BD356B5B65844B300 /* PBXTargetDependency */,
+				8CF83DECE965969876816BFF /* PBXTargetDependency */,
+				18B66B70C6E1A333AE12C232 /* PBXTargetDependency */,
+				92AA3993FCEEF8C6B7D5B488 /* PBXTargetDependency */,
+			);
+			name = "Pods-GetMeABus";
+			productName = "Pods-GetMeABus";
+			productReference = 0918273F01FB2496F3D25718 /* Pods_GetMeABus.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5CC1913F7B8E48907E5CEF68 /* Pods-GetMeABus-KNSemiModalViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0306327DD3C8DEC15C2F05EA /* Build configuration list for PBXNativeTarget "Pods-GetMeABus-KNSemiModalViewController" */;
+			buildPhases = (
+				529E84F5300E1709F3F65160 /* Sources */,
+				A3516B5B1A1D92D870780A10 /* Frameworks */,
+				EE590AC13E2624A856343067 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GetMeABus-KNSemiModalViewController";
+			productName = "Pods-GetMeABus-KNSemiModalViewController";
+			productReference = 12B928D52FE992C912252F1C /* KNSemiModalViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DEED12663436C915A6BE1897 /* Pods-GetMeABus-SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22ED9E7425FE879271665683 /* Build configuration list for PBXNativeTarget "Pods-GetMeABus-SVProgressHUD" */;
+			buildPhases = (
+				D78AA7195C4D0718C4EC5744 /* Sources */,
+				64D227B85EB559ED5B9EDD9B /* Frameworks */,
+				F9F9EFBF0377C85CAD49BC5A /* Headers */,
+				1A919AAD3DDB50950E5C4CF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GetMeABus-SVProgressHUD";
+			productName = "Pods-GetMeABus-SVProgressHUD";
+			productReference = F00BA7AD899B7D73262560B2 /* SVProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF57B0FAB1812A0C3AC3E0F7 /* Pods-GetMeABus-SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25777AE89F01C1276344AE1B /* Build configuration list for PBXNativeTarget "Pods-GetMeABus-SwiftyJSON" */;
+			buildPhases = (
+				8CF467507CB6ECB13034B892 /* Sources */,
+				74C2479732BDF9F7E5DB7374 /* Frameworks */,
+				0DA2D0021FB0739C28208852 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GetMeABus-SwiftyJSON";
+			productName = "Pods-GetMeABus-SwiftyJSON";
+			productReference = FA75CFF252DFA5FADC161DB7 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EE2F7EF852D254026EC6B8D6 /* Pods-GetMeABus-Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E62C11DC3FE394012F017197 /* Build configuration list for PBXNativeTarget "Pods-GetMeABus-Alamofire" */;
+			buildPhases = (
+				B79DAEEAA6E311CA3250EC8D /* Sources */,
+				AEF91F964B888975A64917D7 /* Frameworks */,
+				1D8127879796406F423C98B9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GetMeABus-Alamofire";
+			productName = "Pods-GetMeABus-Alamofire";
+			productReference = B85E7A3FB3D0CD092D93193B /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F17796C22125BC978BFCA117 /* Pods-GetMeABus-Spring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A9DC60B92D775C900744176 /* Build configuration list for PBXNativeTarget "Pods-GetMeABus-Spring" */;
+			buildPhases = (
+				5A376D962612EF7EC38AADC3 /* Sources */,
+				31AD4E31B57F19361D534DCE /* Frameworks */,
+				EFDEE4F68022D012BCAB0D13 /* Resources */,
+				9D05FE9F0C410F0ABF522750 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GetMeABus-Spring";
+			productName = "Pods-GetMeABus-Spring";
+			productReference = 31AF2C09A1300016D980064D /* Spring.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C80D6679A25D2162F9C08D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 7565C84B48F2AF64FC612578 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9C9C600875D753A3FAE6697C;
+			productRefGroup = 3DE054E0D25CDEF1A9451760 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				565AC0552061E277C8326209 /* Pods-GetMeABus */,
+				EE2F7EF852D254026EC6B8D6 /* Pods-GetMeABus-Alamofire */,
+				5CC1913F7B8E48907E5CEF68 /* Pods-GetMeABus-KNSemiModalViewController */,
+				DEED12663436C915A6BE1897 /* Pods-GetMeABus-SVProgressHUD */,
+				F17796C22125BC978BFCA117 /* Pods-GetMeABus-Spring */,
+				DF57B0FAB1812A0C3AC3E0F7 /* Pods-GetMeABus-SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A919AAD3DDB50950E5C4CF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0B309E38BDA5F8392E287F /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDEE4F68022D012BCAB0D13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49DBF042A752C1A5E4F19B4B /* Images.xcassets in Resources */,
+				197A696CEF1B7AF615DC6A83 /* LoadingView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		529E84F5300E1709F3F65160 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F4AB95116A43FF090E1DC46 /* NSObject+YMOptionsAndDefaults.m in Sources */,
+				B1A203EC224F069DD541A69E /* Pods-GetMeABus-KNSemiModalViewController-dummy.m in Sources */,
+				BB4CE0A3924885CD38EDE24E /* UIViewController+KNSemiModal.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A376D962612EF7EC38AADC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8B66E83498BFA3C3714CC52 /* AsyncButton.swift in Sources */,
+				D41631A794510CF1629108F7 /* AsyncImageView.swift in Sources */,
+				3F7C56F1FF128A73C58BCB29 /* AutoTextView.swift in Sources */,
+				9A894B885DF8F81EE1528BEA /* BlurView.swift in Sources */,
+				2F37C79947A48CB98579840E /* DesignableButton.swift in Sources */,
+				4E79527C2CA67B8E94358A54 /* DesignableImageView.swift in Sources */,
+				BE1282035B125E9773A81318 /* DesignableLabel.swift in Sources */,
+				2527B19CE3F90ABBFE93EEA0 /* DesignableTabBarController.swift in Sources */,
+				1F36C7D79BA985AE63A2E093 /* DesignableTextField.swift in Sources */,
+				F0B7E8C763FC963754D52A37 /* DesignableTextView.swift in Sources */,
+				B308A8B1C6947CD4C4465822 /* DesignableView.swift in Sources */,
+				EF29F561FE50EA8A6DC578A0 /* ImageLoader.swift in Sources */,
+				10635F63760CED9EF5A1BAE0 /* KeyboardLayoutConstraint.swift in Sources */,
+				CF81EC790E8E3AB82F3F9F3C /* LoadingView.swift in Sources */,
+				96A32B33665A393432D7265F /* Misc.swift in Sources */,
+				B84A7BF3B59B3A53AC432FC0 /* Pods-GetMeABus-Spring-dummy.m in Sources */,
+				3EE86A63282EABAC185AE732 /* SoundPlayer.swift in Sources */,
+				DE7FF07633CE59468EC291AF /* Spring.swift in Sources */,
+				CC8E432DDBAEB5138D7B9170 /* SpringAnimation.swift in Sources */,
+				5408D06751597D7884A57276 /* SpringButton.swift in Sources */,
+				1797291F64802F154E5AB0D5 /* SpringImageView.swift in Sources */,
+				51501F043B76379683A92BFE /* SpringLabel.swift in Sources */,
+				60BE4FF66BBF6B486B668C2D /* SpringTextField.swift in Sources */,
+				DE14517C0CE4B3E2CFB9C25F /* SpringTextView.swift in Sources */,
+				AC1B089CC7606190DEFD149F /* SpringView.swift in Sources */,
+				2D79B00DFC10AB36B2B58EF9 /* TransitionManager.swift in Sources */,
+				E46D18B7BE8644ABB567B2CF /* TransitionZoom.swift in Sources */,
+				44582E7C80A09908ACD7703D /* UnwindSegue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C57E3EC83494F6D814D2978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F977399E06D2F998F265E8C /* Pods-GetMeABus-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF467507CB6ECB13034B892 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F94A65A125F8EFD1C07350FF /* Pods-GetMeABus-SwiftyJSON-dummy.m in Sources */,
+				A6E03055FF9432EE0E048694 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B79DAEEAA6E311CA3250EC8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				253254655A327BD39D18204C /* Alamofire.swift in Sources */,
+				5E6A1C2B3EDF553CA05D4D09 /* Download.swift in Sources */,
+				D982D5309FAD6CABE27FD577 /* Manager.swift in Sources */,
+				F28296A84A2F12DD8F324C5E /* MultipartFormData.swift in Sources */,
+				08541FFF73DC46174D7AB1C5 /* ParameterEncoding.swift in Sources */,
+				A2966F125EFA13CA0D92297F /* Pods-GetMeABus-Alamofire-dummy.m in Sources */,
+				0D761BD856BDDC720B840E8F /* Request.swift in Sources */,
+				B29049778404A40F2F49DFDE /* ResponseSerialization.swift in Sources */,
+				A719F0A79D145753787816C5 /* ServerTrustPolicy.swift in Sources */,
+				5B5AF00EA9201498FDF72722 /* Upload.swift in Sources */,
+				77C78EB518250D4A9A30BDA5 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D78AA7195C4D0718C4EC5744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2490BEC3FD330D1A1A5E33E /* Pods-GetMeABus-SVProgressHUD-dummy.m in Sources */,
+				9141A55D83AC66C9E087008A /* SVIndefiniteAnimatedView.m in Sources */,
+				5682271FADB2A015A661EE22 /* SVProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18B66B70C6E1A333AE12C232 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GetMeABus-Spring";
+			target = F17796C22125BC978BFCA117 /* Pods-GetMeABus-Spring */;
+			targetProxy = 4676724DEA380D5CC1BCA73D /* PBXContainerItemProxy */;
+		};
+		517510A5FED015F790956501 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GetMeABus-Alamofire";
+			target = EE2F7EF852D254026EC6B8D6 /* Pods-GetMeABus-Alamofire */;
+			targetProxy = 3FF08D12CB0B4E10B15C7D0A /* PBXContainerItemProxy */;
+		};
+		88E7F03BD356B5B65844B300 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GetMeABus-KNSemiModalViewController";
+			target = 5CC1913F7B8E48907E5CEF68 /* Pods-GetMeABus-KNSemiModalViewController */;
+			targetProxy = 508BEED4075E38E14D2A9D5B /* PBXContainerItemProxy */;
+		};
+		8CF83DECE965969876816BFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GetMeABus-SVProgressHUD";
+			target = DEED12663436C915A6BE1897 /* Pods-GetMeABus-SVProgressHUD */;
+			targetProxy = 1F45C3CE4F637F77FDE8308F /* PBXContainerItemProxy */;
+		};
+		92AA3993FCEEF8C6B7D5B488 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GetMeABus-SwiftyJSON";
+			target = DF57B0FAB1812A0C3AC3E0F7 /* Pods-GetMeABus-SwiftyJSON */;
+			targetProxy = 5BB391BA942D92F5449CC6B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11FBF7E921DBBC895D3B5A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDD0779B4751EBA9B81EF888 /* Pods-GetMeABus-Spring-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-GetMeABus-Spring/Pods-GetMeABus-Spring-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-GetMeABus-Spring/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-GetMeABus-Spring/Pods-GetMeABus-Spring.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Spring;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		16B501446C4EB9CCF87DA0EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2574B3C144A4C19F426BED8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 082A6F53205D76A2404C8CC9 /* Pods-GetMeABus.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GetMeABus/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-GetMeABus/Pods-GetMeABus.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_GetMeABus;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2963F1911D32ABA55031F7EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AB23F8A7D74812C479C536A /* Pods-GetMeABus-KNSemiModalViewController-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-GetMeABus-KNSemiModalViewController/Pods-GetMeABus-KNSemiModalViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-GetMeABus-KNSemiModalViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-GetMeABus-KNSemiModalViewController/Pods-GetMeABus-KNSemiModalViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = KNSemiModalViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3181B172269D7DCEBA5FF457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AB23F8A7D74812C479C536A /* Pods-GetMeABus-KNSemiModalViewController-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-GetMeABus-KNSemiModalViewController/Pods-GetMeABus-KNSemiModalViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-GetMeABus-KNSemiModalViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-GetMeABus-KNSemiModalViewController/Pods-GetMeABus-KNSemiModalViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = KNSemiModalViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		350B217C8290F56B30CB232C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDD0779B4751EBA9B81EF888 /* Pods-GetMeABus-Spring-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-GetMeABus-Spring/Pods-GetMeABus-Spring-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-GetMeABus-Spring/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-GetMeABus-Spring/Pods-GetMeABus-Spring.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Spring;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39C2B44F787F5AC3CDFC04DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD515AE0AAD759E3A3D1E95F /* Pods-GetMeABus-SwiftyJSON-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-GetMeABus-SwiftyJSON/Pods-GetMeABus-SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-GetMeABus-SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-GetMeABus-SwiftyJSON/Pods-GetMeABus-SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		51A2A35BE9E1E10FBF90812D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3207D9C009DAA53B76DC4EDB /* Pods-GetMeABus-Alamofire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-GetMeABus-Alamofire/Pods-GetMeABus-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-GetMeABus-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-GetMeABus-Alamofire/Pods-GetMeABus-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5D05405228AC8E6E231EC21D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD515AE0AAD759E3A3D1E95F /* Pods-GetMeABus-SwiftyJSON-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-GetMeABus-SwiftyJSON/Pods-GetMeABus-SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-GetMeABus-SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-GetMeABus-SwiftyJSON/Pods-GetMeABus-SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5FD50929E20053BF5C61AE22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEE41ED09A781EE29C4DC203 /* Pods-GetMeABus-SVProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-GetMeABus-SVProgressHUD/Pods-GetMeABus-SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-GetMeABus-SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-GetMeABus-SVProgressHUD/Pods-GetMeABus-SVProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7B5AB82835D2DBEC47B4D18A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8AD969B61D42B5C4C953129F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3207D9C009DAA53B76DC4EDB /* Pods-GetMeABus-Alamofire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-GetMeABus-Alamofire/Pods-GetMeABus-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-GetMeABus-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-GetMeABus-Alamofire/Pods-GetMeABus-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B56BCC8E302B491123581AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEE41ED09A781EE29C4DC203 /* Pods-GetMeABus-SVProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-GetMeABus-SVProgressHUD/Pods-GetMeABus-SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-GetMeABus-SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-GetMeABus-SVProgressHUD/Pods-GetMeABus-SVProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D2CDCE60FA5A9810A36A116E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9A244DC394DE26FEEE6F5E5 /* Pods-GetMeABus.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GetMeABus/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-GetMeABus/Pods-GetMeABus.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_GetMeABus;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0306327DD3C8DEC15C2F05EA /* Build configuration list for PBXNativeTarget "Pods-GetMeABus-KNSemiModalViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3181B172269D7DCEBA5FF457 /* Debug */,
+				2963F1911D32ABA55031F7EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22ED9E7425FE879271665683 /* Build configuration list for PBXNativeTarget "Pods-GetMeABus-SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B56BCC8E302B491123581AAE /* Debug */,
+				5FD50929E20053BF5C61AE22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25777AE89F01C1276344AE1B /* Build configuration list for PBXNativeTarget "Pods-GetMeABus-SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D05405228AC8E6E231EC21D /* Debug */,
+				39C2B44F787F5AC3CDFC04DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A9DC60B92D775C900744176 /* Build configuration list for PBXNativeTarget "Pods-GetMeABus-Spring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350B217C8290F56B30CB232C /* Debug */,
+				11FBF7E921DBBC895D3B5A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B9C26AB35D09C97A841B458 /* Build configuration list for PBXNativeTarget "Pods-GetMeABus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2CDCE60FA5A9810A36A116E /* Debug */,
+				2574B3C144A4C19F426BED8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7565C84B48F2AF64FC612578 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B5AB82835D2DBEC47B4D18A /* Debug */,
+				16B501446C4EB9CCF87DA0EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E62C11DC3FE394012F017197 /* Build configuration list for PBXNativeTarget "Pods-GetMeABus-Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51A2A35BE9E1E10FBF90812D /* Debug */,
+				8AD969B61D42B5C4C953129F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C80D6679A25D2162F9C08D5 /* Project object */;
+}

@@ -13,6 +13,11 @@
 		14A9F1751B6D183F0065BF86 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14A9F1741B6D183F0065BF86 /* Images.xcassets */; };
 		14A9F1781B6D183F0065BF86 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14A9F1761B6D183F0065BF86 /* LaunchScreen.xib */; };
 		14A9F1841B6D183F0065BF86 /* GetMeABusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A9F1831B6D183F0065BF86 /* GetMeABusTests.swift */; };
+		14A9F1931B6D1AAE0065BF86 /* Alamofire-SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A9F1921B6D1AAE0065BF86 /* Alamofire-SwiftyJSON.swift */; };
+		14A9F1951B6D37380065BF86 /* GMABPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A9F1941B6D37380065BF86 /* GMABPointAnnotation.swift */; };
+		14A9F1971B6D38EF0065BF86 /* TimetableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A9F1961B6D38EF0065BF86 /* TimetableController.swift */; };
+		14A9F1991B6D41180065BF86 /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A9F1981B6D41180065BF86 /* TableController.swift */; };
+		197C54885AFD9CD850A362E0 /* Pods_GetMeABus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9A7239FC25D65CB2C2AEED /* Pods_GetMeABus.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D9A7239FC25D65CB2C2AEED /* Pods_GetMeABus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetMeABus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A9F1681B6D183F0065BF86 /* GetMeABus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetMeABus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A9F16C1B6D183F0065BF86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14A9F16D1B6D183F0065BF86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +42,13 @@
 		14A9F17D1B6D183F0065BF86 /* GetMeABusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetMeABusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A9F1821B6D183F0065BF86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14A9F1831B6D183F0065BF86 /* GetMeABusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMeABusTests.swift; sourceTree = "<group>"; };
+		14A9F18D1B6D1A4E0065BF86 /* GetMeABus-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GetMeABus-Bridging-Header.h"; sourceTree = "<group>"; };
+		14A9F1921B6D1AAE0065BF86 /* Alamofire-SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Alamofire-SwiftyJSON.swift"; sourceTree = "<group>"; };
+		14A9F1941B6D37380065BF86 /* GMABPointAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMABPointAnnotation.swift; sourceTree = "<group>"; };
+		14A9F1961B6D38EF0065BF86 /* TimetableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimetableController.swift; sourceTree = "<group>"; };
+		14A9F1981B6D41180065BF86 /* TableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
+		997504868F614D0C6B0309C0 /* Pods-GetMeABus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetMeABus.release.xcconfig"; path = "Pods/Target Support Files/Pods-GetMeABus/Pods-GetMeABus.release.xcconfig"; sourceTree = "<group>"; };
+		A8E7C04F7D9261B936217ACA /* Pods-GetMeABus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetMeABus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GetMeABus/Pods-GetMeABus.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				197C54885AFD9CD850A362E0 /* Pods_GetMeABus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +76,8 @@
 				14A9F16A1B6D183F0065BF86 /* GetMeABus */,
 				14A9F1801B6D183F0065BF86 /* GetMeABusTests */,
 				14A9F1691B6D183F0065BF86 /* Products */,
+				C916FCF6ED26BF2CA223BA40 /* Pods */,
+				FD8241A19F223EDF6C885D0C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +93,17 @@
 		14A9F16A1B6D183F0065BF86 /* GetMeABus */ = {
 			isa = PBXGroup;
 			children = (
+				14A9F1911B6D1A9B0065BF86 /* Vendor */,
 				14A9F16D1B6D183F0065BF86 /* AppDelegate.swift */,
 				14A9F16F1B6D183F0065BF86 /* ViewController.swift */,
+				14A9F1961B6D38EF0065BF86 /* TimetableController.swift */,
+				14A9F1981B6D41180065BF86 /* TableController.swift */,
 				14A9F1711B6D183F0065BF86 /* Main.storyboard */,
 				14A9F1741B6D183F0065BF86 /* Images.xcassets */,
+				14A9F1941B6D37380065BF86 /* GMABPointAnnotation.swift */,
 				14A9F1761B6D183F0065BF86 /* LaunchScreen.xib */,
 				14A9F16B1B6D183F0065BF86 /* Supporting Files */,
+				14A9F18D1B6D1A4E0065BF86 /* GetMeABus-Bridging-Header.h */,
 			);
 			path = GetMeABus;
 			sourceTree = "<group>";
@@ -112,6 +133,31 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		14A9F1911B6D1A9B0065BF86 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				14A9F1921B6D1AAE0065BF86 /* Alamofire-SwiftyJSON.swift */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		C916FCF6ED26BF2CA223BA40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8E7C04F7D9261B936217ACA /* Pods-GetMeABus.debug.xcconfig */,
+				997504868F614D0C6B0309C0 /* Pods-GetMeABus.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FD8241A19F223EDF6C885D0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D9A7239FC25D65CB2C2AEED /* Pods_GetMeABus.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14A9F1871B6D183F0065BF86 /* Build configuration list for PBXNativeTarget "GetMeABus" */;
 			buildPhases = (
+				52FB2DE6A581C9C786864B40 /* Check Pods Manifest.lock */,
 				14A9F1641B6D183F0065BF86 /* Sources */,
 				14A9F1651B6D183F0065BF86 /* Frameworks */,
 				14A9F1661B6D183F0065BF86 /* Resources */,
+				122E3CCD84714518CA0C639F /* Embed Pods Frameworks */,
+				53413149210062847F39155D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,12 +256,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		122E3CCD84714518CA0C639F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetMeABus/Pods-GetMeABus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52FB2DE6A581C9C786864B40 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		53413149210062847F39155D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetMeABus/Pods-GetMeABus-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		14A9F1641B6D183F0065BF86 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14A9F1991B6D41180065BF86 /* TableController.swift in Sources */,
+				14A9F1951B6D37380065BF86 /* GMABPointAnnotation.swift in Sources */,
 				14A9F1701B6D183F0065BF86 /* ViewController.swift in Sources */,
+				14A9F1971B6D38EF0065BF86 /* TimetableController.swift in Sources */,
+				14A9F1931B6D1AAE0065BF86 /* Alamofire-SwiftyJSON.swift in Sources */,
 				14A9F16E1B6D183F0065BF86 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,21 +439,32 @@
 		};
 		14A9F1881B6D183F0065BF86 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8E7C04F7D9261B936217ACA /* Pods-GetMeABus.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = GetMeABusAppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = GetMeABus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GetMeABus/GetMeABus-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		14A9F1891B6D183F0065BF86 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 997504868F614D0C6B0309C0 /* Pods-GetMeABus.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = GetMeABusAppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = GetMeABus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GetMeABus/GetMeABus-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -409,6 +521,7 @@
 				14A9F1891B6D183F0065BF86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14A9F18A1B6D183F0065BF86 /* Build configuration list for PBXNativeTarget "GetMeABusTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +530,7 @@
 				14A9F18C1B6D183F0065BF86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

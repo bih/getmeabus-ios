@@ -1,0 +1,6 @@
+framework module Pods_GetMeABus {
+  umbrella header "Pods-GetMeABus-umbrella.h"
+
+  export *
+  module * { export * }
+}
