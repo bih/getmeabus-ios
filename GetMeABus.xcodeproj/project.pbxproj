@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1448CD4C1B70FB0600A645B0 /* GMABCurrentLocationAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1448CD4B1B70FB0600A645B0 /* GMABCurrentLocationAnnotation.swift */; };
 		14A9F16E1B6D183F0065BF86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A9F16D1B6D183F0065BF86 /* AppDelegate.swift */; };
 		14A9F1701B6D183F0065BF86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A9F16F1B6D183F0065BF86 /* ViewController.swift */; };
 		14A9F1731B6D183F0065BF86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14A9F1711B6D183F0065BF86 /* Main.storyboard */; };
@@ -32,6 +33,7 @@
 
 /* Begin PBXFileReference section */
 		0D9A7239FC25D65CB2C2AEED /* Pods_GetMeABus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetMeABus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1448CD4B1B70FB0600A645B0 /* GMABCurrentLocationAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMABCurrentLocationAnnotation.swift; sourceTree = "<group>"; };
 		14A9F1681B6D183F0065BF86 /* GetMeABus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetMeABus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A9F16C1B6D183F0065BF86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14A9F16D1B6D183F0065BF86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				14A9F1761B6D183F0065BF86 /* LaunchScreen.xib */,
 				14A9F16B1B6D183F0065BF86 /* Supporting Files */,
 				14A9F18D1B6D1A4E0065BF86 /* GetMeABus-Bridging-Header.h */,
+				1448CD4B1B70FB0600A645B0 /* GMABCurrentLocationAnnotation.swift */,
 			);
 			path = GetMeABus;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14A9F1991B6D41180065BF86 /* TableController.swift in Sources */,
+				1448CD4C1B70FB0600A645B0 /* GMABCurrentLocationAnnotation.swift in Sources */,
 				14A9F1951B6D37380065BF86 /* GMABPointAnnotation.swift in Sources */,
 				14A9F1701B6D183F0065BF86 /* ViewController.swift in Sources */,
 				14A9F1971B6D38EF0065BF86 /* TimetableController.swift in Sources */,

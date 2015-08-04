@@ -16,6 +16,7 @@ import KNSemiModalViewController
 class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDelegate {
 
     @IBOutlet var MapView: MKMapView!
+    @IBOutlet var centerImageView: UIImageView!
     private var locationManager : CLLocationManager!
     private var currentLocation : CLLocationCoordinate2D!
     private var initLocation : Bool = false
@@ -30,12 +31,6 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         locationManager.desiredAccuracy = kCLLocationAccuracyBest;
         locationManager.delegate = self;
         locationManager.startUpdatingLocation()
-        
-        MapView.delegate = self
-    }
-    
-    override func viewDidAppear(animated: Bool) {
-        super.viewDidAppear(true)
     }
     
     func locationManager(manager: CLLocationManager!, didUpdateLocations locations: [AnyObject]!) {
@@ -43,30 +38,38 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         currentLocation = location.coordinate
         
         if initLocation == false {
-            initLocation = true
-            MapView.showsUserLocation = true
-            centerMap()
+            doInitLocation()
         }
     }
     
-    @IBAction func onButtonPress(sender: AnyObject) {
-        centerMap()
+    private func doInitLocation() {
+        initLocation = true
+        MapView.showsUserLocation = false
+        centerMap(location: currentLocation)
     }
     
-    func centerMap() {
+    @IBAction func onButtonPress(sender: AnyObject) {
+        centerMap(location: currentLocation)
+    }
+    
+    func centerMap(location loc : CLLocationCoordinate2D?) {
+        if loc == nil {
+            return;
+        }
+        
         var mapRegion : MKCoordinateRegion!
         mapRegion = MKCoordinateRegion()
-        mapRegion.center = currentLocation
+        mapRegion.center = loc!
         mapRegion.span.latitudeDelta = 0.01
         mapRegion.span.longitudeDelta = 0.01
         
+        MapView.delegate = self
         MapView.setRegion(mapRegion, animated: true)
-        
-        getStops()
+        getStops(location: loc!)
     }
     
-    func getStops() {
-        var url = "http://transportapi.com/v3/uk/bus/stops/near.json?lat=\(currentLocation.latitude)&lon=\(currentLocation.longitude)&api_key=e2c96777c715a5d317c9d2016fdf5284&app_id=b4d09e5d"
+    func getStops(location loc : CLLocationCoordinate2D) {
+        var url = "http://transportapi.com/v3/uk/bus/stops/near.json?lat=\(loc.latitude)&lon=\(loc.longitude)&api_key=e2c96777c715a5d317c9d2016fdf5284&app_id=b4d09e5d"
         
         UIApplication.sharedApplication().networkActivityIndicatorVisible = true
         
@@ -115,6 +118,32 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         
         pinView?.rightCalloutAccessoryView = button
         return pinView
+    }
+    
+    func mapView(mapView: MKMapView!, regionWillChangeAnimated animated: Bool) {
+        if currentLocation == nil {
+            return;
+        }
+        
+        if (MapView.region.span.latitudeDelta > 0.02) || (MapView.region.span.longitudeDelta > 0.02) {
+            MapView.removeAnnotations(annotations)
+            return;
+        }
+        
+        let hasChanged = (MapView.centerCoordinate.latitude != currentLocation.latitude)
+            || (MapView.centerCoordinate.longitude != currentLocation.longitude);
+        
+        if hasChanged {
+            getStops(location: MapView.centerCoordinate)
+        }
+    }
+    
+    func mapView(mapView: MKMapView!, didSelectAnnotationView view: MKAnnotationView!) {
+        centerImageView.hidden = true
+    }
+    
+    func mapView(mapView: MKMapView!, didDeselectAnnotationView view: MKAnnotationView!) {
+        centerImageView.hidden = false
     }
     
     func mapView(mapView: MKMapView!, annotationView: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {

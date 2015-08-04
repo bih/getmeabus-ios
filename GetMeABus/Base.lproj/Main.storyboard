@@ -45,16 +45,26 @@
                                     <action selector="onButtonPress:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="f7r-bZ-MLg"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CurrentLocationPin" translatesAutoresizingMaskIntoConstraints="NO" id="bnd-gW-JEP">
+                                <rect key="frame" x="172" y="319" width="30" height="30"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="8It-VM-d41"/>
+                                    <constraint firstAttribute="width" constant="30" id="dff-Fg-wTz"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="E60-u3-Xlj" secondAttribute="bottom" id="4Gd-eb-Bxt"/>
+                            <constraint firstAttribute="centerY" secondItem="bnd-gW-JEP" secondAttribute="centerY" id="6CO-ed-DOQ"/>
                             <constraint firstAttribute="trailingMargin" secondItem="FcC-Em-brE" secondAttribute="trailing" constant="-16" id="JnZ-HC-Ga7"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="FcC-Em-brE" secondAttribute="bottom" id="N75-Ge-RRS"/>
                             <constraint firstAttribute="trailingMargin" secondItem="E60-u3-Xlj" secondAttribute="trailing" constant="-16" id="Ro2-6T-ivZ"/>
                             <constraint firstItem="FcC-Em-brE" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" id="d0Q-dR-Xr3"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="E60-u3-Xlj" secondAttribute="bottom" constant="20" id="f1K-EC-QSR"/>
                             <constraint firstAttribute="trailingMargin" secondItem="E60-u3-Xlj" secondAttribute="trailing" constant="-16" id="h2u-LR-jpi"/>
+                            <constraint firstAttribute="centerX" secondItem="bnd-gW-JEP" secondAttribute="centerX" id="iJU-X4-6kL"/>
                             <constraint firstItem="E60-u3-Xlj" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="pGG-yd-ama"/>
                             <constraint firstItem="FcC-Em-brE" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="q5e-6b-DPP"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="E60-u3-Xlj" secondAttribute="bottom" id="sUd-yd-v3t"/>
@@ -71,6 +81,7 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="MapView" destination="FcC-Em-brE" id="wZo-jV-kkh"/>
+                        <outlet property="centerImageView" destination="bnd-gW-JEP" id="ISy-uc-CfK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -458,6 +469,7 @@ Showing bus times from 18:55</string>
         </scene>
     </scenes>
     <resources>
+        <image name="CurrentLocationPin" width="300" height="300"/>
         <image name="crosshair" width="300" height="300"/>
     </resources>
 </document>
